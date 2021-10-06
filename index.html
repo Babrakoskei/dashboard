@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body id="body">
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav_icon" onclick="toggleSidebar()">
+         
+        </div>
+        <div class="navbar__right">
+          <a href="#">
+            <i class="fa fa-search" aria-hidden="true" ></i>
+          </a> <div class="search"> Search</div>
+          <div class="bell" style="position: relative; left:81%;">
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+          </div>
+          <a href="#">
+            <img width="35" height="35" style="border-radius: 100%; margin-left: 820px;" src="img/user2.png" alt="" />
+          
+          </a>
+        </div>
+      </nav>
+
+      <main>
+        <div class="main__container">
+        
+          <div class="main__title">
+            <div class="main__greeting">
+              <h3 class="dash">Dashboard</h3>
+              <div class="border" style="border: 2px dotted lightgray"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      <div class="card">
+        <p class="p">Your profile</p><br>
+        <p class="p">Settings</p> <br>
+        <p class="p"> log out</p>
+      </div>
+     
+
+      <div id="sidebar">
+        <div class="sidebar__title">
+          <div class="sidebar__img">
+            <h1> Sample App</h1>
+          </div>
+        </div>
+
+        <div class="sidebar__menu">
+          <div class="sidebar__link active_menu_link">
+            <i class="fa fa-home"></i>
+            <a href="#">Dashboard</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <a href="#">Team</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fa fa-folder" aria-hidden="true"></i>
+            <a href="#">Projects</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            <a href="#">Calendar</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fa fa-file" aria-hidden="true"></i>
+            <a href="#">Documents</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fa fa-line-chart" aria-hidden="true"></i>
+            <a href="#">Reports</a>
+          </div>
+      </div>
+ 
+  </body>
+</html>
